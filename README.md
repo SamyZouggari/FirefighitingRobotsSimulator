@@ -1,147 +1,112 @@
-🚒 Firefighting Robots Simulator 🔥
+# 🚒 Firefighting Robots Simulator 🔥
 
-Welcome to our Java simulation project where autonomous firefighting robots work together to extinguish fires in a dynamic and realistic environment. This project was developed as part of an Object-Oriented Programming course at ENSIMAG.
+Welcome to our **Java simulation project**, where autonomous firefighting robots collaborate to extinguish fires in a dynamic and realistic environment. This project was developed as part of an **Object-Oriented Programming** course at ENSIMAG. We were 3 students doing the project.
 
-🌟 Key Features
+---
 
-Interactive Map: Models a natural environment (forest, rocks, water, open terrain, etc.).
+## 🌟 Key Features
+- 🌍 **Interactive Map**: Simulates a natural environment with various terrains (forest, rocks, water, open terrain).
+- 🤖 **Intelligent Robots**: Robots with unique abilities (wheels, tracks, drones, legs) to plan paths and extinguish fires efficiently.
+- 🔄 **Astar Algorithm**: Calculates optimized paths for robots to navigate the map.
+- 🎯 **Event Management**: Coordinates robot actions with a discrete event simulator.
+- 🚒 **Firefighting Strategies**: Implements multiple methods for assigning robots to fires.
 
-Intelligent Robots: Robots with unique characteristics (wheels, tracks, drones, legs) capable of planning their paths and efficiently extinguishing fires.
+---
 
-A Algorithm*: Implements the shortest path algorithm for optimized robot movements.
+## 🗺️ Simulation Overview
+### Terrain Types
+- 💧 **Water**: Robots refill their tanks here.
+- 🌲 **Forest**: Flammable areas requiring firefighting efforts.
+- 🪨 **Rocks**: Impassable terrain.
+- 🟩 **Open Terrain**: Freely navigable areas.
 
-Event Management: A discrete event simulator to coordinate the actions of the robots.
-
-Firefighting Strategies: Multiple strategies to assign robots to fires and test their performance.
-
-🗺️ Simulation Overview
-
-Terrain Types
-
-Water: Used by robots to refill their tanks.
-
-Forest: Flammable areas requiring firefighting efforts.
-
-Rocks: Impassable terrain.
-
-Open Terrain: Areas where robots can move freely.
-
-Robots
-
+### Robots
 Each robot has:
+- 🚀 **Unique Mobility**: Different speeds and movement capabilities (e.g., drones can fly, wheeled robots are faster on flat ground).
+- 💧 **Tank Capacity**: Determines the amount of water a robot can carry.
+- 🔥 **Extinguishing Speed**: Defines how quickly fires can be extinguished.
 
-Unique mobility: Different speeds and accessibility (e.g., drones can fly, wheeled robots are faster on flat ground).
+---
 
-Tank capacity: Limits the amount of water they can carry.
+## 🚀 How It Works
+1. 🔥 **Dynamic Environment**: Fires break out randomly on the map.
+2. 📋 **Robot Assignment**: Robots are dispatched based on strategies:
+   - **Basic Strategy**: Randomly assigns fires to available robots.
+   - **Advanced Strategy**: Assigns fires to the fastest robot available.
+   - **Optimized Strategy**: Allocates fires to minimize travel time for slower robots.
+3. 🗺️ **Pathfinding**: Robots use the A* algorithm to calculate the shortest routes.
+4. 🤝 **Collaboration**: Robots refill water tanks and return to extinguish fires.
 
-Extinguishing speed: Determines how quickly they can put out fires.
+---
 
-🚀 How It Works
+## 🛠️ Technical Details
+- **Programming Language**: Java
+- **Data Structures**:
+  - 📜 **Linked Lists**: Efficiently manage robots and fires.
+  - 📚 **Priority Queue**: Optimize event and pathfinding tasks.
+  - ⚡ **HashSet**: Speeds up lookups in the A* algorithm.
+- **Simulation Engine**: Synchronizes robot actions and environmental changes.
 
-Dynamic Environment: Fires break out randomly on the map.
+---
 
-Robot Assignment: Robots are dispatched based on various strategies:
+## 📝 How to Run the Simulation
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/YourUsername/Firefighting-Robots-Simulator.git
+   cd Firefighting-Robots-Simulator
+   ```
+2. Compile the Java project:
+   ```bash
+   javac -d bin src/*.java
+   ```
+3. Run the simulation:
+   ```bash
+   java -cp bin Main
+   ```
 
-Basic Strategy: Fires are randomly assigned to available robots.
+---
 
-Advanced Strategy: Robots calculate their travel time to each fire, and the fastest one is dispatched.
+## 🔬 Tests and Execution
 
-Optimized Strategy: Slower robots are assigned to the nearest fires to reduce travel time.
+Complete tests ensure all fires are extinguished using one of three fire assignment strategies.
 
-Pathfinding: Robots calculate the shortest route to their target using the A* algorithm.
+1. Clean up compiled files:
+   ```bash
+   make clean
+   ```
+2. Compile necessary files:
+   ```bash
+   make testChefPompier
+   ```
+3. Run the simulation:
+   ```bash
+   make exeChefPompier FILE={path/to/file.map} ATTRIBUTION={assignment_type}
+   ```
+   - **FILE**: Path to the map file to simulate (e.g., `cartes/mushroomOfHell-20x20.map`).
+   - **ATTRIBUTION**: Fire assignment strategy:
+     - `simple`
+     - `avancee`
+     - `reflechie`
 
-Collaboration: Robots refill water tanks at water sources and continue firefighting.
-
-🛠️ Technical Details
-
-Programming Language: Java
-
-Data Structures:
-
-Linked Lists: Efficient management of robots and fires.
-
-Priority Queue: Optimized handling of events and pathfinding.
-
-HashSet: Used for faster lookups in the A* algorithm.
-
-Simulation Engine: A discrete event simulator synchronizes robot actions and environmental changes.
-
-📝 How to Run the Simulation
-
-Clone this repository:
-
-git clone https://github.com/YourUsername/Firefighting-Robots-Simulator.git
-cd Firefighting-Robots-Simulator
-
-Compile the Java project:
-
-javac -d bin src/*.java
-
-Run the simulation:
-
-java -cp bin Main
-
-🔬 Tests and Execution
-
-Complete Tests
-
-Complete tests verify that all fires are extinguished according to one of three fire assignment strategies.
-
-Clean up compiled files:
-
-make clean
-
-Compile necessary files:
-
-make testChefPompier
-or make all
-
-Run the simulation:
-
-make exeChefPompier FILE={path/to/file.map} ATTRIBUTION={assignment_type}
-
-FILE: Path to the map file to simulate (e.g., cartes/mushroomOfHell-20x20.map).
-
-ATTRIBUTION: Fire assignment strategy:
-
-simple
-
-avancee
-
-reflechie
-
-Example:
-To simulate the mushroomOfHell-20x20.map map with the most efficient strategy:
-
+**Example**:
+```bash
 make exeChefPompier FILE=cartes/mushroomOfHell-20x20.map ATTRIBUTION=reflechie
+```
 
-3. Simulation Parameters
+---
 
-Time Between Updates: Reduce this to speed up the simulation.
+### 3. Simulation Parameters
+- ⏱️ **Time Between Updates**: Reduce this to speed up the simulation.
+- 🕒 **Steps Between Updates**: Increase this to simulate more steps at once.
 
-Steps Between Updates: Increase this if the simulation takes too long.
+---
 
-4. Generate Java Documentation
-
+### 4. Generate Java Documentation
 To generate Java documentation for the application:
-
+```bash
 make doc
+```
+The documentation will be generated in the `docs` folder.
 
-The documentation will be generated in the docs folder.
-
-📂 Project Structure
-
-src/: Contains all the source code.
-
-bin/: Compiled files.
-
-docs/: Documentation for the project.
-
-💡 Future Improvements
-
-Implement fire propagation across the map.
-
-Add energy consumption and charging stations for robots.
-
-Support larger and more complex maps.
+---
 
