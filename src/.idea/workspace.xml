@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="36ac5280-8f96-42f4-8375-95de0fcc0360" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/gui/GUISimulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/gui/GUISimulator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/ImageElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/gui/ImageElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/Oval.java" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Oval.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/Text.java" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Text.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/objets/Case.java" beforeDir="false" afterPath="$PROJECT_DIR$/objets/Case.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/objets/Drone.java" beforeDir="false" afterPath="$PROJECT_DIR$/objets/Drone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/objets/Incendie.java" beforeDir="false" afterPath="$PROJECT_DIR$/objets/Incendie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/objets/Map.java" beforeDir="false" afterPath="$PROJECT_DIR$/objets/Map.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/objets/Robot.java" beforeDir="false" afterPath="$PROJECT_DIR$/objets/Robot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/objets/RobotAChenilles.java" beforeDir="false" afterPath="$PROJECT_DIR$/objets/RobotAChenilles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/objets/RobotAPattes.java" beforeDir="false" afterPath="$PROJECT_DIR$/objets/RobotAPattes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/objets/RobotARoue.java" beforeDir="false" afterPath="$PROJECT_DIR$/objets/RobotARoue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/objets/TestInvader.java" beforeDir="false" afterPath="$PROJECT_DIR$/objets/TestInvader.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2mpTGjB6MwkmEcOh2F40ZFvrj0u" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/user/7/zouggars/POO_Projet/projet-poo",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="36ac5280-8f96-42f4-8375-95de0fcc0360" name="Changes" comment="" />
+      <created>1727772423315</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1727772423315</updated>
+      <workItem from="1727772424495" duration="713000" />
+      <workItem from="1727783884538" duration="1248000" />
+      <workItem from="1727785181074" duration="1589000" />
+      <workItem from="1727787721482" duration="1926000" />
+      <workItem from="1727789945719" duration="6000" />
+      <workItem from="1727790026356" duration="1311000" />
+      <workItem from="1727791458947" duration="327000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
