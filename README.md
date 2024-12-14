@@ -1,4 +1,4 @@
-# 🚒 Firefighting Robots Simulator 🔥
+# Firefighting Robots Simulator
 
 Welcome to our **Java simulation project**, where autonomous firefighting robots collaborate to extinguish fires in a dynamic and realistic environment. This project was developed as part of an **Object-Oriented Programming** course at ENSIMAG. We were 3 students doing the project. I focused on creating the map, the entities and partially about event management. I also did a version with continuous movement but this version was a bit heavy in terms of resources consumption.
 
